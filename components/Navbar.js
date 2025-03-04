@@ -27,6 +27,9 @@ export default function Navbar() {
             <Link href="#solutions" className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">
               Solutions
             </Link>
+            <Link href="/about" className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">
+              About Us
+            </Link>
             {/* <Link href="#testimonials" className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">
               Testimonials
             </Link>
@@ -70,6 +73,9 @@ export default function Navbar() {
             </Link>
             <Link href="#solutions" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">
               Solutions
+            </Link>
+            <Link href="/about" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">
+              About Us
             </Link>
             <Link href="#testimonials" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">
               Testimonials
