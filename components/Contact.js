@@ -19,14 +19,30 @@ export default function Contact() {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Let Netlify handle the form submission
-    // The form will be submitted to Netlify's form handling service
-    setFormState(prev => ({
-      ...prev,
-      submitted: true
-    }));
+    
+    try {
+      // Use Netlify's form submission endpoint
+      const formData = new FormData(e.target);
+      
+      await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(formData).toString()
+      });
+      
+      setFormState(prev => ({
+        ...prev,
+        submitted: true
+      }));
+    } catch (error) {
+      console.error('Form submission error:', error);
+      setFormState(prev => ({
+        ...prev,
+        error: true
+      }));
+    }
   };
 
   return (
@@ -99,15 +115,35 @@ export default function Contact() {
                 </div>
               </div>
             </div>
+          ) : formState.error ? (
+            <div className="rounded-md bg-red-50 p-4">
+              <div className="flex">
+                <div className="flex-shrink-0">
+                  <svg className="h-5 w-5 text-red-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <div className="ml-3">
+                  <h3 className="text-sm font-medium text-red-800">There was an error with your submission</h3>
+                  <div className="mt-2 text-sm text-red-700">
+                    <p>Please try again or contact us directly.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           ) : (
             <form 
               name="contact" 
               method="POST" 
               data-netlify="true"
+              netlify-honeypot="bot-field"
               onSubmit={handleSubmit} 
               className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
             >
               <input type="hidden" name="form-name" value="contact" />
+              <p className="hidden">
+                <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+              </p>
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700">
                   Full name
