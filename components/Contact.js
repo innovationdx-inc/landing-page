@@ -21,8 +21,8 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // In a real implementation, you would send the form data to your backend
-    // For this demo, we'll just simulate a successful submission
+    // Let Netlify handle the form submission
+    // The form will be submitted to Netlify's form handling service
     setFormState(prev => ({
       ...prev,
       submitted: true
@@ -100,7 +100,14 @@ export default function Contact() {
               </div>
             </div>
           ) : (
-            <form onSubmit={handleSubmit} className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" netlify>
+            <form 
+              name="contact" 
+              method="POST" 
+              data-netlify="true"
+              onSubmit={handleSubmit} 
+              className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
+            >
+              <input type="hidden" name="form-name" value="contact" />
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700">
                   Full name
