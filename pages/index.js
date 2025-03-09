@@ -23,8 +23,8 @@ export default function Home() {
       <main>
         <Hero />
         <Features />
-        <AIReportGeneration />
         <Solutions />
+        <AIReportGeneration />
         {/* <Testimonials /> */}
         {/* <Pricing /> */}
         <Contact />
