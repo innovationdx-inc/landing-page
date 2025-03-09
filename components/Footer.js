@@ -2,28 +2,28 @@ import Link from 'next/link';
 
 const navigation = {
   solutions: [
-    { name: 'Hospital Enterprise PACS', href: '#solutions' },
-    { name: 'Radiology Practice PACS', href: '#solutions' },
-    { name: 'Specialty Clinic PACS', href: '#solutions' },
-    { name: 'Cloud Archive', href: '#solutions' },
-    { name: 'Teleradiology', href: '#solutions' },
+    // { name: 'Hospital Enterprise PACS', href: '#solutions' },
+    // { name: 'Radiology Practice PACS', href: '#solutions' },
+    // { name: 'Specialty Clinic PACS', href: '#solutions' },
+    // { name: 'Cloud Archive', href: '#solutions' },
+    // { name: 'Teleradiology', href: '#solutions' },
   ],
   support: [
-    { name: 'Documentation', href: '#' },
-    { name: 'Guides', href: '#' },
-    { name: 'API Status', href: '#' },
+    // { name: 'Documentation', href: '#' },
+    // { name: 'Guides', href: '#' },
+    // { name: 'API Status', href: '#' },
     { name: 'Support', href: '#contact' },
   ],
   company: [
     { name: 'About', href: '#' },
-    { name: 'Blog', href: '#' },
-    { name: 'Careers', href: '#' },
-    { name: 'Press', href: '#' },
-    { name: 'Partners', href: '#' },
+    // { name: 'Blog', href: '#' },
+    // { name: 'Careers', href: '#' },
+    // { name: 'Press', href: '#' },
+    // { name: 'Partners', href: '#' },
   ],
   legal: [
-    { name: 'Privacy', href: '#' },
-    { name: 'Terms', href: '#' },
+    // { name: 'Privacy', href: '#' },
+    { name: 'Terms', href: '/terms' },
     { name: 'HIPAA Compliance', href: '#' },
   ],
   social: [

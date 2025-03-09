@@ -100,7 +100,7 @@ export default function Contact() {
               </div>
             </div>
           ) : (
-            <form onSubmit={handleSubmit} className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+            <form onSubmit={handleSubmit} className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" netlify>
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700">
                   Full name
