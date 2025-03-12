@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: [],
-    formats: ['image/png', 'image/webp', 'image/jpeg'],
+    formats: ['image/avif', 'image/webp'],
   },
 }
 
