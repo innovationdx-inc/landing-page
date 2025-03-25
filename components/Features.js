@@ -11,22 +11,22 @@ import Image from 'next/image';
 const features = [
   {
     name: 'Hybrid Architecture',
-    description: 'Access your medical imaging data securely from anywhere with our hybrid PACS solution.',
+    description: 'Secure, remote access to your imaging data.',
     icon: CloudArrowUpIcon,
   },
   {
     name: 'Enterprise-Grade Security',
-    description: 'HIPAA-compliant security measures with end-to-end encryption and comprehensive audit trails.',
+    description: 'HIPAA-compliant, end-to-end encryption.',
     icon: LockClosedIcon,
   },
   {
     name: 'Scalable Infrastructure',
-    description: 'Easily scale your imaging storage and processing capabilities as your organization grows.',
+    description: 'Easily expand your imaging storage.',
     icon: ServerIcon,
   },
   {
     name: 'Advanced Analytics',
-    description: 'Gain insights from your imaging data with AI-powered analytics and customizable dashboards.',
+    description: 'AI-powered insights and dashboards.',
     icon: DocumentChartBarIcon,
   },
   // {
@@ -48,10 +48,10 @@ export default function Features() {
         <div className="lg:text-center">
           <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">Features</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            A Better Way to Manage Medical Imaging
+            Effortless Imaging Management
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            InnovationDX PACS combines cutting-edge technology with intuitive design to transform your diagnostic workflow.
+            Cutting-edge PACS that streamlines your workflow.
           </p>
         </div>
 
@@ -76,10 +76,10 @@ export default function Features() {
           <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div>
               <h3 className="text-2xl font-extrabold text-gray-900">
-                Powerful Analytics Dashboard
+                Analytics Dashboard
               </h3>
               <p className="mt-3 text-lg text-gray-500">
-                Gain valuable insights into your imaging operations with our comprehensive analytics dashboard. Monitor study volumes, track radiologist performance, and identify optimization opportunities.
+                Monitor key metrics and trends effortlessly.
               </p>
               <div className="mt-6">
                 <ul className="space-y-3">
@@ -89,7 +89,7 @@ export default function Features() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                       </svg>
                     </div>
-                    <span className="ml-2 text-gray-600">Real-time operational metrics</span>
+                    <span className="ml-2 text-gray-600">Real-time metrics</span>
                   </li>
                   <li className="flex items-start">
                     <div className="flex-shrink-0">
@@ -97,7 +97,7 @@ export default function Features() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                       </svg>
                     </div>
-                    <span className="ml-2 text-gray-600">Customizable reporting views</span>
+                    <span className="ml-2 text-gray-600">Customizable views</span>
                   </li>
                   <li className="flex items-start">
                     <div className="flex-shrink-0">
@@ -105,7 +105,7 @@ export default function Features() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                       </svg>
                     </div>
-                    <span className="ml-2 text-gray-600">Trend analysis and forecasting</span>
+                    <span className="ml-2 text-gray-600">Trend analysis</span>
                   </li>
                 </ul>
               </div>
@@ -140,10 +140,10 @@ export default function Features() {
             </div>
             <div className="mb-10 lg:mb-0 order-1 lg:order-2">
               <h3 className="text-2xl font-extrabold text-gray-900">
-                Efficient Study Management
+                Study Management
               </h3>
               <p className="mt-3 text-lg text-gray-500">
-                Our intuitive study list interface provides powerful filtering, sorting, and prioritization tools to streamline your workflow and ensure critical studies are handled promptly.
+                Filter, sort, and prioritize studies quickly.
               </p>
               <div className="mt-6">
                 <ul className="space-y-4">
@@ -151,25 +151,25 @@ export default function Features() {
                     <svg className="h-5 w-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                     </svg>
-                    <span className="text-gray-600">Advanced filtering and customizable worklists</span>
+                    <span className="text-gray-600">Advanced filtering</span>
                   </li>
                   <li className="flex">
                     <svg className="h-5 w-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                     </svg>
-                    <span className="text-gray-600">Color-coded priority indicators</span>
+                    <span className="text-gray-600">Priority indicators</span>
                   </li>
                   <li className="flex">
                     <svg className="h-5 w-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                     </svg>
-                    <span className="text-gray-600">One-click access to patient history and prior studies</span>
+                    <span className="text-gray-600">Quick access to patient history</span>
                   </li>
                   <li className="flex">
                     <svg className="h-5 w-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                     </svg>
-                    <span className="text-gray-600">Seamless integration with reporting and AI tools</span>
+                    <span className="text-gray-600">Seamless integration</span>
                   </li>
                 </ul>
               </div>
@@ -182,10 +182,10 @@ export default function Features() {
           <div className="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center">
             <div className="mb-10 lg:mb-0">
               <h3 className="text-2xl font-extrabold text-gray-900">
-                Flexible Study Routing
+                Smart Routing
               </h3>
               <p className="mt-3 text-lg text-gray-500">
-                Our intelligent routing system ensures studies are automatically directed to the right specialists, facilities, or external partners based on customizable rules.
+                Automatically route studies using smart rules.
               </p>
               <div className="mt-6">
                 <ul className="space-y-4">
@@ -193,7 +193,7 @@ export default function Features() {
                     <svg className="h-5 w-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                     </svg>
-                    <span className="text-gray-600">Rule-based study distribution</span>
+                    <span className="text-gray-600">Rule-based distribution</span>
                   </li>
                   <li className="flex">
                     <svg className="h-5 w-5 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

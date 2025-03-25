@@ -13,7 +13,7 @@ export default function Hero() {
                 <span className="block text-blue-600">for modern radiology</span>
               </h1>
               <p className="mt-4 text-base text-gray-600 sm:text-lg max-w-xl">
-                Bring your radiologists' productivity and patient satisfaction to new levels.
+              Bring your radiologist productivity and patient satisfaction to new levels.
               </p>
               <div className="mt-6">
                 <div className="rounded-md shadow inline-block">

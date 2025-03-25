@@ -3,7 +3,7 @@ import Image from 'next/image';
 const solutions = [
   {
     title: 'Hospital Enterprise PACS',
-    description: 'A comprehensive imaging solution for large hospitals and healthcare networks, supporting multiple departments and facilities with centralized management.',
+    description: 'Comprehensive solution for large hospitals with centralized management.',
     features: [
       'Centralized image repository',
       'Cross-department workflow integration',
@@ -15,7 +15,7 @@ const solutions = [
   },
   {
     title: 'Radiology Practice PACS',
-    description: 'Tailored for radiology practices and imaging centers, optimizing radiologist workflow and reporting efficiency.',
+    description: 'Optimized for efficient radiologist workflow.',
     features: [
       'Streamlined reading workflow',
       'Integrated reporting templates',
@@ -27,7 +27,7 @@ const solutions = [
   },
   {
     title: 'Specialty Clinic PACS',
-    description: 'Specialized solutions for cardiology, orthopedics, ophthalmology, and other specialty practices with modality-specific tools.',
+    description: 'Modality-specific solution for specialty clinics.',
     features: [
       'Specialty measurement tools',
       'Procedure-specific workflows',
@@ -46,10 +46,10 @@ export default function Solutions() {
         <div className="text-center">
           <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">Solutions</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            Tailored PACS Solutions for Every Need
+            Tailored PACS
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
-            We offer specialized PACS solutions designed for different healthcare environments and specialties.
+            Innovative PACS for every healthcare setting.
           </p>
         </div>
 

@@ -8,10 +8,10 @@ export default function AIReportGeneration() {
         <div className="text-center">
           <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">AI-Powered Reporting</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            Revolutionize Your Radiology Reporting Workflow
+            Streamlined Reporting
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
-            Our advanced AI technology transforms voice dictation into structured, accurate radiology reports in seconds.
+            Transform voice dictation into clear, structured reports instantly.
           </p>
         </div>
 
@@ -71,11 +71,10 @@ export default function AIReportGeneration() {
             
             <div className="mt-10 lg:mt-0">
               <h3 className="text-2xl font-extrabold text-gray-900">
-                Intelligent Radiology Reporting
+                Smart Reporting
               </h3>
               <p className="mt-3 text-lg text-gray-500">
-                Our AI-powered dictation and report generation system understands radiological terminology and 
-                automatically structures findings into comprehensive, standardized reports.
+                AI turns your dictation into clear, structured reports.
               </p>
               
               <div className="mt-10 space-y-10">
@@ -86,9 +85,9 @@ export default function AIReportGeneration() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg leading-6 font-medium text-gray-900">Natural Voice Dictation</h4>
+                    <h4 className="text-lg leading-6 font-medium text-gray-900">Speak Naturally</h4>
                     <p className="mt-2 text-base text-gray-500">
-                      Simply speak naturally about your findings. Our AI understands radiological terminology and context.
+                      Just speak—our AI gets it.
                     </p>
                   </div>
                 </div>
@@ -100,9 +99,9 @@ export default function AIReportGeneration() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg leading-6 font-medium text-gray-900">Structured Reports</h4>
+                    <h4 className="text-lg leading-6 font-medium text-gray-900">Clear Reports</h4>
                     <p className="mt-2 text-base text-gray-500">
-                      AI automatically organizes findings into properly structured reports following ACR guidelines and your institution's templates.
+                      AI organizes your findings into clear reports.
                     </p>
                   </div>
                 </div>
@@ -114,9 +113,9 @@ export default function AIReportGeneration() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg leading-6 font-medium text-gray-900">Time-Saving Efficiency</h4>
+                    <h4 className="text-lg leading-6 font-medium text-gray-900">Faster Reporting</h4>
                     <p className="mt-2 text-base text-gray-500">
-                      Reduce reporting time by up to 70% while improving accuracy and consistency across your practice.
+                      Cut reporting time by 70% with consistent accuracy.
                     </p>
                   </div>
                 </div>
